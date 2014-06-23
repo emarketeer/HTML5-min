@@ -5,8 +5,10 @@
 
 			if ( $('body').hasClass('devbg') ) {
 				$('body').removeClass('devbg');
+				$('body *').css("opacity", "1");
 			} else {
 				$('body').addClass('devbg');
+				$('body *').css("opacity", "0.5");
 			}
 
 		}
